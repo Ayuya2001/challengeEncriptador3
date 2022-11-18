@@ -25,7 +25,9 @@ header{
 .input-texto{
     text-align: center;
     background-image: url(../imagenes/street-figther.jpg);
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: 10px 10px 54px 14px #000000;
     border: none;
     color: black;
@@ -95,6 +97,16 @@ header{
 
  /* responsive */
 
- @media screen and (max-width: 700px) {
+ @media all and (max-width: 1200px) {
     
+    header {
+        margin-left: 8rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .encriptar-texto {
+        flex-shrink: 5;
+    }
+
  }
