@@ -1,0 +1,100 @@
+*{
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+body{
+    background: linear-gradient(#fff,red);
+}
+
+header{
+    margin-top: 10px;
+    margin-left: 5rem;
+}
+
+
+.encriptar-texto {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* donde escribo el texto*/
+.input-texto{
+    text-align: center;
+    background-image: url(../imagenes/street-figther.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 54px 14px #000000;
+    border: none;
+    color: black;
+}
+/* esto es para cambiar el color que viene por defecto del placeholder*/
+.input-texto::placeholder{
+    color: black;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+    margin: .8rem;
+}
+
+
+
+.Encriptar{
+    border-radius: 4px;
+}
+
+.Desencriptar{
+    border-radius: 4px;
+}
+
+.btn_copiar {
+    display: flex;
+    justify-content: center;
+    margin: .8rem;
+}
+
+.copiar{
+    border-radius: 4px;
+}
+/*este mensaje es lo que recibe al ser encriptado*/
+.mensaje{
+    background: linear-gradient(#fff,red);
+    background-image: url(../imagenes/hadokkeeeen.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    box-shadow: 10px 10px 54px 14px #000000;
+    border: none;
+    text-align: center;
+    color: black;
+}
+
+.mensaje::placeholder{
+    color: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.imagen-foter{
+    width: 40%;
+}
+
+.copy{
+    text-align: center;
+    padding-top: 5px;
+}  
+
+ /* responsive */
+
+ @media screen and (max-width: 700px) {
+    
+ }
